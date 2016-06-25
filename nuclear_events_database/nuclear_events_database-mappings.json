@@ -1,0 +1,64 @@
+PUT nuclear_events_database/
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "event": {
+      "properties": {
+        "City": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Cost USD": {
+          "type": "double"
+        },
+        "County": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Country": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Date": {
+          "type": "date",
+          "format": "strict_date_optional_time||epoch_millis"
+        },
+        "Description": {
+          "type": "string",
+          "omit_norms": true,
+          "fields": {
+            "raw": {
+              "index": "not_analyzed",
+              "type": "string",
+              "doc_values": true
+            }
+          }
+        },
+        "Fatalities": {
+          "type": "long"
+        },
+        "INES": {
+          "type": "long"
+        },
+        "Location": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Region": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "SmythMagnitude": {
+          "type": "long"
+        },
+        "State": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    }
+  }
+}
