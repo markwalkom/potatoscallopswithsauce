@@ -8,5 +8,5 @@ This assumes you already have Elasticsearch >2.3, Logstash >2.3 and Kibana >4.5 
 
 ## Data set breakdown
 By directory, alphabetically;
- * [Australian Disaster Events](https://github.com/markwalkom/potatoscallopswithsauce/australian_disaster_events) - List of events from late 1700's to now that were classified as a disaster.
- * [Nuclear Events Databse](https://github.com/markwalkom/potatoscallopswithsauce/nuclear_events_database) - Nuclear incidents and accidents.
+ * [Australian Disaster Events](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/australian_disaster_events) - List of events from late 1700's to now that were classified as a disaster.
+ * [Nuclear Events Databse](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/nuclear_events_database) - Nuclear incidents and accidents.
