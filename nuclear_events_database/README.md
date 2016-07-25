@@ -1,6 +1,6 @@
 # Nuclear Events Database
 
-A dataset of 216 incidents and accidents occurring at nuclear power plants worldwide. Contains the costs of 
+A dataset of 216 incidents and accidents occurring at nuclear power plants worldwide.
 
 Original data via https://innovwiki.ethz.ch/index.php/Nuclear_events_database.
 
