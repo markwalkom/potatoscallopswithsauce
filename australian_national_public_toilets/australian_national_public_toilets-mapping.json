@@ -1,0 +1,179 @@
+PUT australian-national-public-toilets
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "dunny": {
+      "properties": {
+        "@timestamp": {
+          "type": "date",
+          "format": "dateOptionalTime"
+        },
+        "@version": {
+          "type": "long"
+        },
+        "AccessLimited": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AccessNote": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AccessibleFemale": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AccessibleMale": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AccessibleNote": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AccessibleParkingNote": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AccessibleUnisex": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Address1": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "AddressNote": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "BabyChange": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "DrinkingWater": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "FacilityType": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Female": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "IconAltText": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "IconURL": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "IsOpen": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "KeyRequired": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Latitude": {
+          "type": "float"
+        },
+        "Longitude": {
+          "type": "float"
+        },
+        "MLAK": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Male": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Name": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Notes": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "OpeningHoursNote": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "OpeningHoursSchedule": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Parking": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "ParkingAccessible": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "ParkingNote": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "PaymentRequired": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Postcode": {
+          "type": "short"
+        },
+        "SanitaryDisposal": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "SharpsDisposal": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Showers": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "State": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Status": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "ToiletID": {
+          "type": "short"
+        },
+        "ToiletType": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Town": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "URL": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "Unisex": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "coordinates": {
+          "type": "geo_point"
+        }
+      }
+    }
+  }
+}
