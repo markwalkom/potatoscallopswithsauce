@@ -2,7 +2,7 @@
 
 Original data via https://data.gov.au/dataset/national-public-toilet-map
 
-NOTE - I need to fix this and remove the ruby script, use the spit filter instead.
+NOTE - I need to fix this and remove the ruby script, use the split filter instead. Also, the colours in this are pretty horrendous, needs to be less garish.
 
 ## Files
 
@@ -11,7 +11,7 @@ NOTE - I need to fix this and remove the ruby script, use the spit filter instea
  * `australian_national_public_toilets-dashboard.jpg` - Screenshot of the dashboard
  * `australian_national_public_toilets-mappings.json` - Elasticsearch mappings
  * `australian_national_public_toilets-logstash.conf` - Logstash config file
- * `australian_national_public_toilets-data.csv.gz` - The data file, ammendments as per above comments
+ * `australian_national_public_toilets-data.csv.gz` - The data file
 
 ## Getting it to work
 
