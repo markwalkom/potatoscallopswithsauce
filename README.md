@@ -8,6 +8,7 @@ This assumes you already have Elasticsearch >2.3, Logstash >2.3 and Kibana >4.5 
 
 ## Data set breakdown
 By directory, alphabetically;
- * [Australian Disaster Events](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/australian_disaster_events) - List of events from late 1700's to now that were classified as a disaster.
+ * [Australian Disaster Events](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/australian_disaster_events) - List of Australian events from late 1700's to now that were classified as a disaster.
  * [Australian National Public Toilets](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/australian_national_public_toilets) - A register of all the public dunnies in Austalia.
- * [Nuclear Events Databse](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/nuclear_events_database) - Nuclear incidents and accidents.
+ * [Nuclear Events Databse](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/nuclear_events_database) - Nuclear incidents and accidents over a .
+ * [Skytrax User Reviews](https://github.com/markwalkom/potatoscallopswithsauce/tree/master/skytrax_user_reviews) - Reviews of flights, seats, airlines scraped from the Skytrax website in 2015.
